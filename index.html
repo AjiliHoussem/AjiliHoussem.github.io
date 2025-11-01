@@ -3,31 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Developer Portfolio</title>
+  <title>Ajili Houssem | Developer Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Hello, I'm <span class="name">Ajili Houssem</span></h1>
-    <p> Flutter | java | JavaScript | Angular | Node.js</p>
+  <header class="hero">
+    <nav>
+      <h1 class="logo">Houssem<span>.</span></h1>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="mailto:ajilihoussem88@gmail.com">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="intro">
+      <h2>Hello, I'm <span class="highlight">Ajili Houssem</span></h2>
+      <p>Full Stack Developer | Flutter | Java | Angular | Node.js</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
   </header>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>🚀 Project One</h3>
-      <p>A web app built with Java and Xml.</p>
-      <a href="https://github.com/AjiliHoussem/MyEclipseProject" target="_blank">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>💡 Project Two</h3>
-      <p>Responsive landing page using HTML, CSS, and JS.</p>
-      <a href="https://AjiliHoussem.github.io/MyEduShare" target="_blank">Live Demo</a>
+  <section id="projects" class="projects">
+    <h2>💻 Featured Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>🚀 Project One</h3>
+        <p>A web app built with Java and XML.</p>
+        <a href="https://github.com/AjiliHoussem/MyEclipseProject" target="_blank" class="btn-secondary">View on GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <h3>💡 Project Two</h3>
+        <p>Responsive landing page built using HTML, CSS, and JS.</p>
+        <a href="https://AjiliHoussem.github.io/MyEduShare" target="_blank" class="btn-secondary">Live Demo</a>
+      </div>
     </div>
   </section>
 
   <footer>
-    <p>📫 Contact: <a href="mailto:ajilihoussem88@gmail.com">ajilihoussem88@gmail.com</a></p>
+    <p>📫 Contact me at <a href="mailto:ajilihoussem88@gmail.com">ajilihoussem88@gmail.com</a></p>
+    <p>© 2025 Ajili Houssem. All rights reserved.</p>
   </footer>
 </body>
 </html>
